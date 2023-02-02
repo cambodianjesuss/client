@@ -1,3 +1,7 @@
+import { BrowserRouter, Navigate, Routes, Route } from 'react-router-dom';
+import HomePage from 'scenes/home-page/index.jsx';
+
+
 import './index.css';
 
 function App() {
