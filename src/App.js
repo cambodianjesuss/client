@@ -6,7 +6,13 @@ import ProfilePage from 'scenes/profile-page';
 import 'index.css';
 
 function App() {
-  return <div className="app">Mah</div>
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<LoginPage />} />
+      <Route path='/home' element={<HomePage />} />
+      <Route path='/profile/:userId' element={<ProfilePage />} />
+    </Routes>
+  </BrowserRouter>
 }
 
 export default App;
