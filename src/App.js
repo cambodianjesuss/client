@@ -3,8 +3,6 @@ import HomePage from 'scenes/home-page';
 import LoginPage from 'scenes/login-page';
 import ProfilePage from 'scenes/profile-page';
 
-import 'index.css';
-
 function App() {
   <BrowserRouter>
     <Routes>
