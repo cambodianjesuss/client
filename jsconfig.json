@@ -4,5 +4,3 @@
   },
   "include": ["src"]
 }
-
-// Used for releative paths in root src
